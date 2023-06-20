@@ -29,8 +29,10 @@ Test creating simple contact crud with additional feature such as sort, filter a
 ```sh
 untuk melakukan filter, sort, dan pagination pada permintaan GET ke URL http://localhost:8000/contacts:
  ```
- ```sh
-Untuk filter berdasarkan nama, tambahkan query parameter name dengan nilai yang ingin Anda cari, misalnya http://localhost:8000/contacts?name=fulan.
+ 
+Untuk filter berdasarkan nama, tambahkan query parameter name dengan nilai yang ingin Anda cari, misalnya 
+```sh
+http://localhost:8000/contacts?name=fulan.
  ```
 Untuk melakukan pengurutan berdasarkan nama, tambahkan query parameter sort dengan nilai name, misalnya 
  ```sh
