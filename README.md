@@ -26,8 +26,10 @@ Test creating simple contact crud with additional feature such as sort, filter a
    ```
 
 2. endpoint list
+
+untuk melakukan filter, sort, dan pagination pada permintaan GET ke URL
 ```sh
-untuk melakukan filter, sort, dan pagination pada permintaan GET ke URL http://localhost:8000/contacts:
+http://localhost:8000/contacts:
  ```
  
 Untuk filter berdasarkan nama, tambahkan query parameter name dengan nilai yang ingin Anda cari, misalnya 
